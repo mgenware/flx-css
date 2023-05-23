@@ -20,3 +20,9 @@
 .flx-row > .flx-scroll {
   overflow-x: auto;
 }
+.flx-center {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  word-break: break-all;
+}
