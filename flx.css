@@ -1,0 +1,22 @@
+.flx-col {
+  display: flex;
+  flex-direction: column;
+}
+.flx-row {
+  display: flex;
+  flex-direction: row;
+}
+.flx-auto {
+  flex: 0 1 auto;
+  word-break: break-all;
+}
+.flx-fill {
+  flex: 1 1 auto;
+  word-break: break-all;
+}
+.flx-col > .flx-scroll {
+  overflow-y: auto;
+}
+.flx-row > .flx-scroll {
+  overflow-x: auto;
+}
